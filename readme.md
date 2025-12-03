@@ -1,12 +1,12 @@
 # Battery Quality Control & Reliability Analysis Project
 
-## 📋 Project Overview
+## Project Overview
 
 This project implements a comprehensive statistical analysis framework for battery quality control and reliability assessment in smartwatch manufacturing. The analysis follows a complete industrial quality management chain from individual product inspection to batch quality assessment and lifetime prediction.
 
 **Core Concept:** Using NASA's battery aging datasets, we simulate a smartwatch battery factory scenario to demonstrate how probability theory and mathematical statistics can be applied to real-world industrial quality problems.
 
-## 🎯 Key Features
+## Key Features
 
 - **End-to-end analysis pipeline** from raw data to decision support
 - **Multiple statistical methods** integrated naturally within an industrial context
@@ -14,7 +14,7 @@ This project implements a comprehensive statistical analysis framework for batte
 - **Complete visualization** of statistical concepts and results
 - **Reproducible research** with modular Python code
 
-## 📊 Analysis Framework
+## Analysis Framework
 
 ### Part 1: Data Description & Random Event Definition
 - Descriptive statistics for battery lifetime data
@@ -44,7 +44,7 @@ This project implements a comprehensive statistical analysis framework for batte
 - Confidence interval construction for mean lifetime
 - Monte Carlo simulations for statistical properties
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 battery-quality-analysis/
@@ -69,7 +69,7 @@ battery-quality-analysis/
 └── README.md                      # This file
 ```
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 - matplotlib>=3.4.0
 - jupyter>=1.0.0
 
-## 📈 Dataset Information
+## Dataset Information
 
 ### Primary Dataset: NASA Battery Aging Dataset
 - **Source:** NASA Prognostics Center of Excellence (PCoE)
@@ -114,7 +114,7 @@ pip install -r requirements.txt
 2. Extract files to `data/Battery Data Set/` directory
 3. The code will automatically load and preprocess the data
 
-## 🚀 Usage Guide
+## Usage Guide
 
 ### Quick Start
 1. Ensure NASA data is placed in the correct directory
@@ -160,7 +160,7 @@ from scipy.stats import weibull_min
 # Visualizes Central Limit Theorem through sampling
 ```
 
-## 📊 Expected Outputs
+## Expected Outputs
 
 ### Generated Visualizations
 1. **Lifetime Distribution Histograms** - Shows battery lifespan patterns
@@ -177,7 +177,7 @@ from scipy.stats import weibull_min
 - Correlation coefficients between variables
 - Power analysis for quality tests
 
-## 🧪 Academic Applications
+## Academic Applications
 
 This project serves as an excellent case study for:
 - **Probability & Statistics courses** - Real-world application of theoretical concepts
@@ -201,7 +201,7 @@ This project serves as an excellent case study for:
 - Law of Large Numbers
 - Central Limit Theorem
 
-## 📝 Citation & References
+## Citation & References
 
 ### Dataset Citation
 ```bibtex
@@ -219,7 +219,7 @@ This project serves as an excellent case study for:
 - Original paper methodology based on standard statistical textbooks
 - Industrial quality control references from Six Sigma literature
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to:
 1. Report bugs or issues
@@ -227,17 +227,17 @@ Contributions are welcome! Please feel free to:
 3. Submit pull requests with improvements
 4. Share additional datasets or applications
 
-## 📄 License
+## License
 
 This project is released for academic and educational purposes. The NASA datasets are publicly available for research use with proper attribution.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - NASA Prognostics Center of Excellence for the battery datasets
 - Contributors to open-source statistical packages in Python
 - Academic advisors and colleagues for valuable feedback
 
-## 📧 Contact
+## Contact
 
 For questions, suggestions, or collaborations:
 - **GitHub Issues:** [Project Repository Issues]
