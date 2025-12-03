@@ -185,7 +185,7 @@ This project serves as an excellent case study for:
 - **Data Science education** - Complete analytical workflow
 - **Industrial Engineering** - Reliability assessment methods
 
-## 🔍 Key Statistical Concepts Demonstrated
+## Key Statistical Concepts Demonstrated
 
 ### Probability Theory
 - Random events and probability calculations
